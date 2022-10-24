@@ -1,0 +1,53 @@
+.image_placeholder {
+  display: block;
+  height: auto;
+  max-width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 1px;
+}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: aquamarine;
+  font-family: sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#mainMenu {
+  margin: 10px;
+}
+#mainMenu li {
+  display: block;
+  width: auto;
+  margin-left: 2px;
+  border: 2px solid #000;
+}
+#mainMenu a {
+  display: block;
+  padding: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #2b2b2b;
+}
+#mainMenu a:hover {
+  background-color: rgb(153, 0, 94);
+  color: #2b2bb2;
+  transition: 0.3s;
+}
+.ava_us {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 40px;
+}
